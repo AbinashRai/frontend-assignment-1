@@ -1,3 +1,12 @@
+"use client";
+import Header from "./components/Header";
+import { useState, useEffect } from "react";
+
 export default function Home() {
-  return <div>tanStack query</div>;
+  return (
+    <div className="h-screen">
+      <Header />
+      <div className="w-[83%] mx-auto"> tanStack query</div>
+    </div>
+  );
 }
